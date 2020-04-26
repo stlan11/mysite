@@ -88,18 +88,6 @@ p {
   width: 25%;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 100px;
-  top: 300px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 20px;
-  bottom: 300px;
-}
-
 .myButton {
 	box-shadow: 0px 10px 14px -7px #276873;
 	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
