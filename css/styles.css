@@ -17,7 +17,7 @@ body {
 
 .bottom-container {
   background-color: #7ebdb4;
-  padding: 100px;
+  padding: 50px 0 20px;
 }
 
 .profile-picture {
@@ -27,17 +27,16 @@ body {
 }
 
 .skill-row {
-  margin: 50px auto 50px auto;
-  width: 75%;
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
 }
 
 .copyright {
   color: #eaf6f6;
-}
-
-.footer-link {
-  font-weight: bold;
-  text-decoration: none;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 
 .contact-me {
@@ -46,6 +45,13 @@ body {
 
 a {
   color: #11999E;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #eaf6f6;
 }
 
 hr {
@@ -83,10 +89,26 @@ p {
 
 .writing {
   width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
 .front-end {
   width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 100px;
+  top: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 150px;
+  bottom: 300px;
 }
 
 .myButton {
@@ -97,7 +119,7 @@ p {
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family: 'Open Sans', sans-serif;
 	font-size:15px;
 	font-weight:normal;
 	padding:13px 32px;
